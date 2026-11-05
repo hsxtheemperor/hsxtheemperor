@@ -2,18 +2,16 @@
 
 [Repository](https://github.com/hsxtheemperor/NoteBooks-Framework) · [Live application](https://notebooks-framework.vercel.app)
 
-NoteBooks Framework is a framework-light educational knowledge platform for organizing, reading, discussing, reviewing, and publishing curriculum-aligned study material. Its learning spaces cover Science, Commerce, and Humanities.
+> **My contribution:** Backend development.
 
-## What it includes
+An educational platform for organizing, reading, discussing, reviewing, and publishing curriculum-aligned material across Science, Commerce, and Humanities.
 
-The application combines public learning spaces and a Markdown reader with repository-backed content, community features, issue proposals, review workflows, user preferences, and administrative tools. GitHub repositories hold curriculum files; generated manifests support discovery, while the application's raw-delivery path provides file contents.
+## Backend and architecture
 
-## Technology and architecture
+The application uses a **Node.js, TypeScript, and Express** backend with a static vanilla-JavaScript browser client. Its backend supports repository-backed curriculum content, generated registries and content trees, community features, issue proposals, review workflows, and administrative tools.
 
-The repository describes a Node.js/TypeScript Express application with a static vanilla-JavaScript browser client. It uses generated repository registries and content trees, and integrates with GitHub and external persistence/deployment services.
-
-The project README identifies distinct areas for stream workspaces, community, issues and review, settings, and administration. It also documents deployment and release-readiness constraints, so consult the repository for the current operational status.
+GitHub repositories act as the source for curriculum files; generated manifests support discovery, while the raw-delivery path serves file contents. The project README documents the broader architecture, deployment considerations, and release-readiness status.
 
 ## License
 
-GNU General Public License v3.0 or later (GPL-3.0-or-later). See the [repository license](https://github.com/hsxtheemperor/NoteBooks-Framework/blob/main/LICENSE) and its notices for attribution and other details.
+**GNU General Public License v3.0 or later (GPL-3.0-or-later).** See the [repository license](https://github.com/hsxtheemperor/NoteBooks-Framework/blob/main/LICENSE) and project notices for attribution and other details.
